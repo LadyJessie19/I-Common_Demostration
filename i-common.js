@@ -74,7 +74,7 @@ sections.modalManual =
 '<button onclick="copyCode(SCRIPT)"><img width="17px" src="assets/copy-regular.svg" alt="copyIcon"></button></blockquote>'+
 '<div id="buttonsModal" class="mr-3">'+
 '<button onclick="showHTML()">How To Set The HTML Code</button>'+
-'<button>How To Set The Script File</button>'+
+'<button onclick="showScript()">How To Set The Script File</button>'+
 '</div>'+
 '</div>';
 
