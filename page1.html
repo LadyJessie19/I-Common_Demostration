@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://www.argow.com.br/argow.ico" type="image/vnd.microsoft.icon">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="argow.css">
+
+    <script src="script.js" defer></script>
+    <title>Page 1</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="ar:ic-target"></div>
+    <header>
+        <table class="logo" width="100%" frame="void" rules="none">
+            <tbody>
+                <tr>
+                    <td width="46">
+                        <img src="assets/argowLogo-A.gif" width="42" height="42" alt="Argow&#39;s logo">
+                    </td>
+                    <td>
+                        <span class="titulo">Argow</span><br>
+                        <span class="subtitulo">Solution ready!</span>
+                    </td>
+                    <td valign="bottom" align="right">
+                        <a class="home" href="https://argow.com.br/metadata.htm"><img alt="Metadados" title="Metadados" border="0" src="assets/btn_metadata.gif"></a>:<a class="home" href="https://argow.com.br/argowsearch.htm"><img title="Busca" alt="Busca" border="0" src="assets/btn_search.gif"></a>:<a class="home" href="http://www.argow.com.br/"><img border="0" title="Home" alt="Home" src="assets/btn_home.gif"></a>
+                    </td>
+                </tr>
+                <tr class="navigator">
+                    <td colspan="3" align="center">
+                        <h2>Page 1</h2>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </header>
+    <main>
+        <h1>That's the first page</h1>
+        <div id="modal">
+            <div id="modalContent" class="d-flex flex-column modalContent">
+                <button onclick="closeModal()" class="p-1">&times;</button>
+                <div id="explanation">
+                    <div id="modalExplanationDiv"></div>
+                </div>
+            </div>
+        </div>
+        <p>You can see the <code>header</code> above and use the navigation icons.</p>
+        <p>Now, check the second page.</p>
+        <span>1 / 3</span>
+        <a href="page2.html"><button class="exampleButtons">Next</button></a>
+        <button onclick="openModal()" id="btn-modal">I-Common</button>
+    </main>
+    <footer>
+        <table>
+            <tbody>
+                <tr class="footer">
+                    <td align="center" class="footer">
+                        � 2008&#8722;2016&nbsp;<a class="footer" href="http://www.argow.com.br/">Argow</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </footer>
+    <script src="i-common.js" id="ar:ic-config" data-ar:ic-sec="modalExplanation>modalExplanationDiv"></script>
+</body>
+</html>

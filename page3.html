@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://www.argow.com.br/argow.ico" type="image/vnd.microsoft.icon">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="argow.css">
+
+    <script src="script.js" defer></script>
+    <title>Page 3</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/232e2c38d5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <table class="logo" width="100%" frame="void" rules="none">
+            <tbody>
+                <div id="ar:ic-target"></div>
+                <tr class="navigator">
+                    <td colspan="3" align="center">
+                        <h2>Page 1 (with i-common)</h2>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </header>
+    <main>
+        <h1>This is the first page</h1>        
+        <div id="modal">
+            <div id="modalContent" class="d-flex flex-column modalContent"></div>
+        </div>     
+        <div id="modalHTML">
+            <!-- <div id="modalHTMLContent" class="d-flex flex-column d-none modalContent">
+            </div> -->
+            <div id="modalHTMLContent" class="modalContent">
+                <button onclick="closeModal()" class="p-1">&times;</button>
+                <h1>How to set the HTML That You`ll be using</h1>
+                <ol>
+                    <li>Open the <code>i-common.js</code> file and go to // `Global` Sections (line 9);</li>
+                    <li>You can follow the section example (<code>sections.example</code>) and create an object with your HTML code;</li>
+                </ol>
+                <img src="assets/sections_example.png" alt="example">
+                <h5>REMENBER!</h5>
+                <ul>
+                    <li>Create an object inside the object <code>sections</code>;</li>
+                    <li>Each code line needs to be wrapped in <em>simple quotes</em>(``);</li>
+                    <li>Each code line needs to end with <em>plus sign</em> (+);</li>
+                    <li>At the end of the HTML code don`t forget the <em>semicolon</em> (;);</li>
+                </ul>
+            </div>
+        </div>     
+        <div id="modalScript">
+            <div id="modalScriptContent" class="d-flex flex-column d-none modalContent">
+                <button onclick="closeModal()" class="p-2">&times;</button>
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <h1>How to import the script</h1>
+                    <ol>
+                        <h6>Step by step:</h6>
+                        <li>Create a <code>script</code> tag;</li>
+                        <li>Set the path to the <code>i-common.js</code> file;</li>
+                        <li>Set the id <code>ar:ic-config</code> to the script file;</li>
+                        <li>Set the <code>data-ar:ic-sec</code> attribute with which <code>HTML section*</code> you want to use.</li>
+                        <li><em>There it goes!</em> The reusable HTML will be placed in the <code>div</code> you seated with the id <code>ar:ic-target</code>.</li>
+                        <p><em><sub>*(the object that you created in the section at the <code>i-common.js</code>)</sub></em></p>
+                    </ol>
+                    <h6>Example ⬇</h6>
+                    <blockquote>
+                    <code>&lt;script src="i-common.js" id="ar:ic-config" data-ar:ic-sec="your_HTML_section"&gt;&lt;/script&gt;</code>
+                    <button onclick="copyCode(SCRIPT)"><img width="17px" src="assets/copy-regular.svg" alt="copyIcon"></button>
+                    </blockquote>
+                </div>
+            </div>
+        </div>     
+        <p>On this page, it's possible to see the page 2 header inside page 1. After setting the HTML code, you can reuse the HTML <code>header</code> on how many pages you want with i-common.</p>
+        <p> See the step-by-step below. </p>
+        <span>3 / 3</span>
+        <div id="buttonsNavigation" class="d-flex gap-1">
+            <a href="page2.html"><button class="exampleButtons">Previous</button></a>
+        </div>
+        <div id="manualFooter" class="d-flex gap-2 justify-content-between align-items-center border p-3 container">
+            <div class="col-4">
+                <h4>How to use <em>i-common</em>:</h4>
+                <button onclick="openModal()" class="btn-modal-footer">I-Common</button>
+            </div>
+            <div class="col-4">
+                <h4>How to set HTML:</h4>
+                <button onclick="showHTML()" class="btn-modal-footer">HTML</button>
+            </div>
+            <div class="col-4">
+                <h4>How to set script import:</h4>
+                <button onclick="showScript()" class="btn-modal-footer">Script</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <table>
+            <tbody>
+                <tr class="footer">
+                    <td align="center" class="footer">
+                        � 2008&#8722;2016&nbsp;<a class="footer" href="http://www.argow.com.br/">Argow</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </footer>
+    <script src="i-common.js" id="ar:ic-config" data-ar:ic-sec="header,modalManual>modalContent"></script>
+</body>
+</html>

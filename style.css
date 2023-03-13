@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana, sans-serif !important;
+}
+
+/* TAGS STRUCTURE */
+
+main{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 10px;
+}
+
+footer {
+    width: 100vw;
+    background-color: #8FBC8B;
+    position: absolute;
+    bottom: 0;
+}
+
+table{
+    width: 99.7vw;
+}
+
+ul{
+    font-size: 13px;
+}
+
+/* TAGS ACESSORIES */
+
+button{
+    width: 2rem;
+    height: 2rem;
+    line-height: 1rem;
+    outline: none;
+    border: .5px solid rgb(194, 193, 193);
+    border-radius: 7px !important;
+    background-color: #8FBC8B;
+    color: #FFFFF0;
+    overflow: hidden;
+}
+
+button:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+blockquote{
+    width: fit-content;
+    height: 40px;
+    line-height: 15px;
+    background-color: #e0ebe0 !important;
+    border: none !important;
+    border-radius: 5px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+}
+
+/* TAGS TEXT FORMATING */
+
+p{
+    max-width: 50vw;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4{
+    font-size: 14px;
+    text-align: center !important;
+}
+
+/* TAGS MODALS */
+
+#modal{
+    position: absolute;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+#modalHTML{
+    position: absolute;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+#modalScript{
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+#btn-modal{
+    width: 10rem;
+    height: 2rem;
+    padding: .25rem .5rem;
+}
+
+.btn-modal-footer{
+    width: 100%;
+    height: 1.7rem;
+    padding: .1rem .1rem;
+    font-size: 13px;
+}
+
+.modalContent{
+    width: 60%;
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 1rem;
+    max-height: 87vh;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+#modalContent>button{
+    border-radius: 50%;
+    outline: none;
+    border: 1px solid gray;
+}
+
+#explanation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#manual{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#manual>h1{
+    font-size: 28px;
+}
+
+#manual>h4{
+    font-size: 19px;
+}
+
+#manual>p{
+    font-size: 12px;
+}
+
+#linkIcommon{
+    color: black;
+}
+
+#linkIcommon:hover{
+    color: grey;
+}
+
+#buttonsModal>button{
+    width: 250px;
+}
+
+#manualFooter{
+    width: 70vw;
+    padding: 14px;
+}
+
+.exampleButtons{
+    width: 200px;
+}
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 700px){
+    footer{
+        display: none;
+    }
+}

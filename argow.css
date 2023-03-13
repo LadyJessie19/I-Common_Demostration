@@ -1,0 +1,139 @@
+
+/*
+	Cores
+		#FFFFF0   IVORY
+		#FDF5E6   oldLace
+		#FFEFD5   PapayaWhip 
+		#556B2F   darkOliveGreen
+		#F0FFF0   HONEYDEW
+		#8FBC8B   DarkSeaGreen
+		#F5DEB3   WHEAT
+		#CD853F   PERU
+		#00008B   DARK BLUE
+		#808080
+		#A52A2A  Brown
+(
+*/
+
+body { font-family: verdana, sans-serif; font-size: medium; background-image: url('back.gif'); background-color: #FFFFF0; color: #000000; padding-top: 20px;}
+table { font-family: verdana; font-size: medium;}
+table.main{ border-collapse: collapse; border: solid medium #8FBC8B; background-color: #FFFFF0; color: #000000;} /* cc3 border-radius: 10px; */
+table.main td { padding: 10px; }
+table.main td.footer { padding: 1px; }
+table.footer td.footer{ padding: 1px; }
+table.logo{ border-collapse: collapse; /*border-bottom: solid thin #8FBC8B; */}
+table.logo td { padding: 4px; }
+table.metatable{ border-collapse: collapse; border: solid 1px #000000; }
+table.metatable td { padding: 4px; vertical-align: top; }
+td.comment { background-color: #FFEFD5; /*PapayaWhip*/}
+table.metatable td.metakey { background-color: #FDF5E6; vertical-align: middle; }
+thead.metatable{ font-weight: bold; background-color: #F5DEB3; border: solid thin #000000; }
+acronym{ font-variant: small-caps; text-decoration: none; }
+
+/* thin is different between ie and fox, use 1px */
+div.sample{ margin: 30px; margin-top: 0px }
+table.sampletable{ border-collapse: collapse; border: 1px dotted #000000;  margin: 0px; margin-top: 20px; width: 100% }
+thead.sampletable{ font-variant:small-caps; background-color: #FDF5E6; border: 1px dotted #000000 }
+tbody.sampletable tr{ color: #A52A2A; border: 1px dotted #000000; }
+table.sampletable td { padding: 4px; }
+td.script  { background-color: #FFFFFF; border: solid 1px #8FBC8B; border-bottom: solid 1px #FFFFFF;}
+blockquote.script{ background-color: #FFFFFF; font-family: monospace; font-size: 10pt; border: 1px solid #8FBC8B; white-space: nowrap; border-top: 0px; padding: 10px; margin: 0px; margin-bottom:10px; overflow: auto;}
+div.note{ margin: 10px; font-family: arial; font-size:small; color: #556B2F; text-align: center; background-color: #FEFEF0}
+
+/* 8FBC8B = R 143, G: 188, B: 139 */
+textarea.textcode { border: thin solid #8FBC8B; margin-left: 20px; }
+input { border: thin solid #8FBC8B; font-family: verdana; padding-left: 4px; padding-right: 4px;  }
+h1 { color: #556B2F; text-align: center; font-size: xx-large; margin: 2px; padding: 0px;  }
+h2 { color: #FFFFF0; text-align: center; font-size: x-large; margin: 2px; padding: 0px; font-weight: bold;  }
+h3 { color: #556B2F; text-align: left; font-size: large; font-weight: bold; margin-bottom: 4px; margin-top: 5px}
+h4 { color: #556B2F; text-align: left; font-size: medium; font-weight: bold; margin-bottom: 4px; margin-top: 5px}
+h5 { color: #556B2F; text-align: left; font-size: medium; font-weight: normal; margin-bottom: 4px; margin-top: 5px; margin-left: 3px}
+
+p.pinfo { margin-left: 20px; }
+p.testimonial{ font-family: 'Comic Sans MS', cursive, sans-serif; margin: 20px; padding: 20px; background-color: #F0FFF0;  border: thin solid #8FBC8B; color: #556B2F;}
+ul, ol.pinfo { margin-left: 30px; }
+ul.metatable { margin: 8px; }
+ul.metatable li { margin-bottom: 4px; margin-left: 8px;}
+li { margin-bottom: 4px; margin-left: 30px;}
+span.titulo { color: #556B2F; font-size: xx-large; font-weight: bold  }
+span.subtitulo { color: #556B2F; font-size: small; font-style: italic }
+td.header { color: #250; font-weight: bold; text-align: center; background-color: #efe; border-bottom: thin solid #8FBC8B }
+tr.navigator { color: #FFFFF0; font-size: x-large; font-weight: bold; background-color: #8FBC8B}
+tr.footer { color: #FFFFF0; font-size: small; background-color: #8FBC8B;}
+a{ text-decoration: none;}
+a:hover{ text-decoration: underline;}
+a.navigator { color: #FFFFF0; font-size: small; font-family: Tahoma; /*ie bug, use tahoma*/white-space: nowrap;}
+a.navigator:hover   { color: #FFE4B5; text-decoration: none}
+a.relation { color: #00008B;}
+a.relation:before { content: '\002190\002009';}
+a.external:after{ content: url(external.gif);}
+a.footer{ color: #FFFFF0; font-size: small; }
+a.moreinfo { color: #556B2F; font-size: small;  }
+a.moreinfo:hover  { color: #F08080; text-decoration: none;}
+a.home { color: #556B2F; font-size: small; text-decoration: none;  }
+td.home {color: #556B2F; font-size: small;}
+a.home:hover   { color: #250; text-decoration: none;}
+span.md5{ color: #808080; font-family: monospace; font-size: small;} 
+span.screen { color: #556B2F; font-family: monospace; white-space: nowrap;} /* DarkOliveGreen  */
+span.longscreen { color: #556B2F; font-family: monospace; white-space: normal;} /* DarkOliveGreen  */
+span.code { color: #00008B; }
+span.code_str { color: #A52A2A }
+span.code_rem { color: green }
+blockquote  { background-color: #F0FFF0; font-family: Arial; border: thin solid; margin: 30px; padding: 12px; }
+blockquote.code { background-color: #FDF5E6; font-family: monospace; border: 1px dotted; padding: 10px; white-space: nowrap; margin: 30px; margin-bottom:10px; margin-top:8px; /*overflow: auto;*/}
+
+area.info { cursor: help }
+area.image{ cursor: pointer }
+
+
+
+p.howtoq{
+	margin-left: 15px;
+	font-weight: bold;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+p.howtoa{
+	margin-left: 20px;
+	margin-top: 4px;
+	margin-bottom: 14px;
+}
+
+img.home{
+	border: 0px;
+	vertical-align: baseline;
+	margin-right: 1px;
+	margin-left: 1px;
+}
+
+img.homes{
+	border: 0px;
+	vertical-align: baseline;
+	margin-right: 1px;
+	margin-left: 1px;
+	opacity: .3;
+	filter:alpha(opacity=30);
+}
+
+img.index{
+	border: 0px;
+	vertical-align: baseline;
+	margin-right: 4px;
+	background-color: #FFFFF0;
+	opacity: .5;
+	filter:alpha(opacity=50);
+	}
+
+img.index:hover   {
+	opacity: 1;
+	filter:alpha(opacity=100);
+	}
+
+img.shot {
+	border: thin solid #CD853F;
+	padding: 6px;
+	background-color: #F5DEB3;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
