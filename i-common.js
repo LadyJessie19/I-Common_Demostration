@@ -60,7 +60,7 @@ sections.modalManual =
 '<button onclick="closeModal()" class="p-1">&times;</button>'+
 '<div id="manual">'+
 '<h1>The I-Common Manual</h1>'+
-'<h4><strong>Step 1:</strong>Clone or download the repository  <a href="https://github.com/LadyJessie19/i-common" target="_blank" id="linkIcommon"><strong>i-common</strong></a>.</h4>'+
+'<h4><strong>Step 1:</strong> Clone or download the repository  <a href="https://github.com/LadyJessie19/i-common" target="_blank" id="linkIcommon"><strong>i-common</strong></a>.</h4>'+
 '<p>In the i-common repository, the <code>i-common.js</code> file and a folder with i-common use examples will be available.</p>'+
 '<p>Cut or copy the <code>i-common.js</code> file to the same folder where the HTML you will be using it.</p>'+
 '<h4><strong>Step 2:</strong> Open the HTML file that you will be using.</h4>'+
