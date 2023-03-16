@@ -108,7 +108,7 @@ h4{
 #modalScript{
     position: absolute;
     top: 0;
-    display: block;
+    display: none;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.527);
