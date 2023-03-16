@@ -57,7 +57,7 @@ sections.modalExplanation =
     'Throughout the <code>i-common.js</code> importation in the HTML file, you can add the code you want to reuse as many times as you want and in as many HTML files as you need.</p>';
 
 sections.modalManual =
-'<button onclick="closeModal()" class="p-1">&times;</button>'+
+'<button onclick="closeModal()">&times;</button>'+
 '<div id="manual">'+
 '<h1>The I-Common Manual</h1>'+
 '<h4><strong>Step 1:</strong> Clone or download the repository  <a href="https://github.com/LadyJessie19/i-common" target="_blank" id="linkIcommon"><strong>i-common</strong></a>.</h4>'+
@@ -97,7 +97,7 @@ sections.modalHTML =
 '</div>';
 
 sections.modalScript = 
-'<button onclick="closeModal()" class="p-2">&times;</button>'+
+'<button onclick="closeModal()">&times;</button>'+
 '<div class="d-flex flex-column justify-content-center align-items-center">'+
 '<h1>How to import the script</h1>'+
 '<ol>'+
