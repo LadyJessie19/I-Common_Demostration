@@ -15,7 +15,7 @@ sections.header =
 '<table>'+
 '<tbody>'+
 '<tr class="p-3">'+
-'<td width="46">'+
+'<td width="50">'+
     '<img src="assets/argowLogo-A.gif" width="42" height="42" alt="Argow&#39;s logo" />'+
 '</td>'+
 '<td>'+
@@ -25,7 +25,7 @@ sections.header =
 '<br>'+
     '<span class="subtitulo">Solution ready!</span>'+
 '</td>'+
-'<td valign="bottom"  align="right">'+
+'<td valign="bottom" width="137">'+
     '<a class="home" href="https://argow.com.br/argowhowto.htm"><img alt="&gt;o eu?" title="&gt;o eu?" class="home" src="assets/btn_howto.gif"></a>:'+
     '<a class="home" href="https://argow.com.br/argowevent.htm">'+
       '<img alt="Eventos" title="Eventos" class="home" src="assets/btn_event.gif">'+
@@ -61,7 +61,7 @@ sections.modalManual =
 '<div id="manual">'+
 '<h1>The I-Common Manual</h1>'+
 '<h4><strong>Step 1:</strong> Clone or download the repository  <a href="https://github.com/LadyJessie19/i-common" target="_blank" id="linkIcommon"><strong>i-common</strong></a>.</h4>'+
-'<p>In the i-common repository, the <code>i-common.js</code> file and a folder with i-common use examples will be available.</p>'+
+'<p>In the i-common repository, the <code>i-common.js</code> file and a folder with i-common using examples will be available.</p>'+
 '<p>Cut or copy the <code>i-common.js</code> file to the same folder where the HTML you will be using it.</p>'+
 '<h4><strong>Step 2:</strong> Open the HTML file that you will be using.</h4>'+
 '<h4><strong>Step 3:</strong> Create a <code>div</code> where you want to place the reusable code.</h4>'+
@@ -102,7 +102,7 @@ sections.modalScript =
 '<h1>How to import the script</h1>'+
 '<ol>'+
     '<h6>Step by step:</h6>'+
-    '<li>Create a <code>script</code> tag;</li>'+
+    '<li>Create a <code>script</code> element;</li>'+
     '<li>Set the path to the <code>i-common.js</code> file;</li>'+
     '<li>Set the id <code>ar:ic-config</code> to the script file;</li>'+
     '<li>Set the <code>data-ar:ic-sec</code> attribute with which <code>HTML section*</code> you want to use.</li>'+
